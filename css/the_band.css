@@ -435,3 +435,8 @@ html {
 .last-line{
     padding-top: 16px;
 }
+
+svg{
+    color:#fff;
+    width: 16px;
+}
