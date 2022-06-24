@@ -105,9 +105,8 @@ html {
 }
 
 #header .search-icon{
-    color: #fff;
     font-size: 20px;
-    line-height: var(--height_of_header);
+    height: var(--height_of_header);
     padding: 0 24px;
     cursor: pointer;
 }
@@ -429,14 +428,27 @@ html {
 }
 
 .color-footer{
-    color: rgba(0, 0, 0, 0.5);
+    fill: rgba(0, 0, 0, 0.5);
 
 }
 .last-line{
     padding-top: 16px;
 }
-
+/* icon changing */
 svg{
-    color:#fff;
     width: 16px;
+}
+
+
+.svg-white{
+    fill:#fff;
+}
+
+.down-arrow-hover:hover{
+    fill:black;
+}
+
+.modal-header-icon{
+    width: 30px;
+    margin-right: 10px;
 }
